@@ -1,0 +1,11 @@
+```julia
+function myfunction(x)
+  if x > 0
+    return x^2
+  else
+    return -x^2 
+  end
+  return 0  # This line is unreachable
+  # This line is unreachable either
+end
+```
